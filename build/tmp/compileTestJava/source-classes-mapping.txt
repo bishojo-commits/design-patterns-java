@@ -1,0 +1,2 @@
+com/bishojo/designpatterns/strategy/test/MuteQuackTest.java
+ com.bishojo.designpatterns.strategy.test.MuteQuackTest
