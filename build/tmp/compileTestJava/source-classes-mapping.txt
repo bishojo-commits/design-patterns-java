@@ -1,2 +1,10 @@
+com/bishojo/designpatterns/strategy/test/QuackTest.java
+ com.bishojo.designpatterns.strategy.test.QuackTest
 com/bishojo/designpatterns/strategy/test/MuteQuackTest.java
  com.bishojo.designpatterns.strategy.test.MuteQuackTest
+com/bishojo/designpatterns/strategy/test/FlyRocketPowerTest.java
+ com.bishojo.designpatterns.strategy.test.FlyRocketPowerTest
+com/bishojo/designpatterns/strategy/test/SqueakTest.java
+ com.bishojo.designpatterns.strategy.test.SqueakTest
+com/bishojo/designpatterns/strategy/test/MallardDuckTest.java
+ com.bishojo.designpatterns.strategy.test.MallardDuckTest

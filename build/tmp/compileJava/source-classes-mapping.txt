@@ -1,5 +1,5 @@
-com/bishojo/designpatterns/strategy/duck/Duck.java
- com.bishojo.designpatterns.strategy.duck.Duck
+com/bishojo/designpatterns/strategy/behaviour/fly/FlyBehaviour.java
+ com.bishojo.designpatterns.strategy.behaviour.fly.FlyBehaviour
 com/bishojo/designpatterns/strategy/behaviour/quack/Squeak.java
  com.bishojo.designpatterns.strategy.behaviour.quack.Squeak
 com/bishojo/designpatterns/strategy/behaviour/fly/FlyWithWings.java
@@ -14,8 +14,8 @@ com/bishojo/designpatterns/strategy/behaviour/fly/FlyRocketPower.java
  com.bishojo.designpatterns.strategy.behaviour.fly.FlyRocketPower
 com/bishojo/designpatterns/strategy/behaviour/quack/MuteQuack.java
  com.bishojo.designpatterns.strategy.behaviour.quack.MuteQuack
-com/bishojo/designpatterns/strategy/behaviour/fly/FlyBehaviour.java
- com.bishojo.designpatterns.strategy.behaviour.fly.FlyBehaviour
+com/bishojo/designpatterns/strategy/duck/Duck.java
+ com.bishojo.designpatterns.strategy.duck.Duck
 com/bishojo/designpatterns/strategy/duck/MallardDuck.java
  com.bishojo.designpatterns.strategy.duck.MallardDuck
 com/bishojo/designpatterns/strategy/duck/RubberDuck.java
