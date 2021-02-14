@@ -1,24 +1,24 @@
-com/bishojo/designpatterns/strategy/behaviour/fly/FlyBehaviour.java
- com.bishojo.designpatterns.strategy.behaviour.fly.FlyBehaviour
+com/bishojo/designpatterns/strategy/duck/Duck.java
+ com.bishojo.designpatterns.strategy.duck.Duck
 com/bishojo/designpatterns/strategy/behaviour/quack/Squeak.java
  com.bishojo.designpatterns.strategy.behaviour.quack.Squeak
 com/bishojo/designpatterns/strategy/behaviour/fly/FlyWithWings.java
  com.bishojo.designpatterns.strategy.behaviour.fly.FlyWithWings
 com/bishojo/designpatterns/strategy/behaviour/quack/Quack.java
  com.bishojo.designpatterns.strategy.behaviour.quack.Quack
-com/bishojo/designpatterns/strategy/behaviour/quack/QuackBehaviour.java
- com.bishojo.designpatterns.strategy.behaviour.quack.QuackBehaviour
-com/bishojo/designpatterns/strategy/behaviour/fly/FlyNoWay.java
- com.bishojo.designpatterns.strategy.behaviour.fly.FlyNoWay
-com/bishojo/designpatterns/strategy/behaviour/fly/FlyRocketPower.java
- com.bishojo.designpatterns.strategy.behaviour.fly.FlyRocketPower
-com/bishojo/designpatterns/strategy/behaviour/quack/MuteQuack.java
- com.bishojo.designpatterns.strategy.behaviour.quack.MuteQuack
-com/bishojo/designpatterns/strategy/duck/Duck.java
- com.bishojo.designpatterns.strategy.duck.Duck
 com/bishojo/designpatterns/strategy/duck/MallardDuck.java
  com.bishojo.designpatterns.strategy.duck.MallardDuck
 com/bishojo/designpatterns/strategy/duck/RubberDuck.java
  com.bishojo.designpatterns.strategy.duck.RubberDuck
+com/bishojo/designpatterns/strategy/behaviour/fly/FlyRocketPower.java
+ com.bishojo.designpatterns.strategy.behaviour.fly.FlyRocketPower
+com/bishojo/designpatterns/strategy/behaviour/quack/MuteQuack.java
+ com.bishojo.designpatterns.strategy.behaviour.quack.MuteQuack
+com/bishojo/designpatterns/strategy/behaviour/fly/FlyBehaviour.java
+ com.bishojo.designpatterns.strategy.behaviour.fly.FlyBehaviour
+com/bishojo/designpatterns/strategy/behaviour/fly/FlyNoWay.java
+ com.bishojo.designpatterns.strategy.behaviour.fly.FlyNoWay
 com/bishojo/designpatterns/strategy/MiniDuckSimulator.java
  com.bishojo.designpatterns.strategy.MiniDuckSimulator
+com/bishojo/designpatterns/strategy/behaviour/quack/QuackBehaviour.java
+ com.bishojo.designpatterns.strategy.behaviour.quack.QuackBehaviour

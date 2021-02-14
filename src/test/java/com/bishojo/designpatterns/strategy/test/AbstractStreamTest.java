@@ -6,7 +6,7 @@ import org.junit.jupiter.api.BeforeEach;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-public class AbstractStreamTest {
+public abstract class AbstractStreamTest {
 
     protected final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     protected final PrintStream originalOut = System.out;
