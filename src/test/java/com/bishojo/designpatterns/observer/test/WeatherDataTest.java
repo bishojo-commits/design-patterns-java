@@ -18,11 +18,11 @@ public class WeatherDataTest {
     private final WeatherData weatherDataEmpty = new WeatherData();
     private ArrayList<Observer> observers = new ArrayList<>();
     private final CurrentConditionsDisplay display = Mockito.mock(CurrentConditionsDisplay.class);
+    private final WeatherData weatherDataMock = Mockito.mock(WeatherData.class);
 
     @Test
     @DisplayName("testConstructorInitializesObserverArrayList")
     public void testObserverInitialized() {
-
         Assertions.assertEquals(weatherData.getObservers(), observers);
     }
 
@@ -57,6 +57,15 @@ public class WeatherDataTest {
         weatherData.notifyObservers();
 
         verify(display, times(2)).update(0, 0, 0);
+    }
+
+    @Test
+    @DisplayName("testMeasurementChanged")
+    public void testMeasurementChanged() {
+        weatherData.registerObserver(display);
+        weatherData.measurementsChanged();
+
+        verify(display, times(1)).update(0, 0, 0);
     }
 
     @Test

@@ -1,5 +1,5 @@
 package com.bishojo.designpatterns.observer;
 
 public interface Observer {
-    void update(float temp, float humidity, float pressure);
+    void update(float temperature, float humidity, float pressure);
 }
