@@ -15,7 +15,6 @@ public class WeatherStationTest extends AbstractStreamTest {
     @Test
     @DisplayName("testWeatherDataChangesDisplayedCurrent")
     public void testWeatherDataChangesDisplayedCurrent() {
-
         weatherData.setMeasurementData(90, 40, 1023);
 
         Assertions.assertEquals(
