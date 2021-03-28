@@ -1,6 +1,7 @@
 package com.bishojo.designpatterns.strategy.test;
 
 import com.bishojo.designpatterns.strategy.behaviour.fly.FlyRocketPower;
+import com.bishojo.designpatterns.test.helpers.AbstractStreamTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

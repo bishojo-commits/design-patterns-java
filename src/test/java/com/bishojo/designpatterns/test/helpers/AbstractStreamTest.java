@@ -1,4 +1,4 @@
-package com.bishojo.designpatterns.strategy.test;
+package com.bishojo.designpatterns.test.helpers;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
