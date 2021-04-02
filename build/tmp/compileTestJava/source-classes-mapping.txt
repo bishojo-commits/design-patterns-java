@@ -1,5 +1,5 @@
-com/bishojo/designpatterns/observer/test/WeatherDataTest.java
- com.bishojo.designpatterns.observer.test.WeatherDataTest
+com/bishojo/designpatterns/strategy/test/FlyRocketPowerTest.java
+ com.bishojo.designpatterns.strategy.test.FlyRocketPowerTest
 com/bishojo/designpatterns/strategy/test/SqueakTest.java
  com.bishojo.designpatterns.strategy.test.SqueakTest
 com/bishojo/designpatterns/strategy/test/MallardDuckTest.java
@@ -8,11 +8,17 @@ com/bishojo/designpatterns/strategy/test/MuteQuackTest.java
  com.bishojo.designpatterns.strategy.test.MuteQuackTest
 com/bishojo/designpatterns/test/helpers/AbstractStreamTest.java
  com.bishojo.designpatterns.test.helpers.AbstractStreamTest
-com/bishojo/designpatterns/observer/test/CurrentConditionsDisplayTest.java
- com.bishojo.designpatterns.observer.test.CurrentConditionsDisplayTest
 com/bishojo/designpatterns/strategy/test/QuackTest.java
  com.bishojo.designpatterns.strategy.test.QuackTest
 com/bishojo/designpatterns/observer/test/WeatherStationTest.java
  com.bishojo.designpatterns.observer.test.WeatherStationTest
-com/bishojo/designpatterns/strategy/test/FlyRocketPowerTest.java
- com.bishojo.designpatterns.strategy.test.FlyRocketPowerTest
+com/bishojo/designpatterns/observer/test/CurrentConditionsDisplayTest.java
+ com.bishojo.designpatterns.observer.test.CurrentConditionsDisplayTest
+com/bishojo/designpatterns/observer/test/WeatherDataTest.java
+ com.bishojo.designpatterns.observer.test.WeatherDataTest
+com/bishojo/designpatterns/observer_buildin/test/TemperatureDataTest.java
+ com.bishojo.designpatterns.observer_buildin.test.TemperatureDataTest
+com/bishojo/designpatterns/observer_buildin/test/CurrentTemperatureDisplayTest.java
+ com.bishojo.designpatterns.observer_buildin.test.CurrentTemperatureDisplayTest
+com/bishojo/designpatterns/observer_buildin/test/WeatherStationTest.java
+ com.bishojo.designpatterns.observer_buildin.test.WeatherStationTest

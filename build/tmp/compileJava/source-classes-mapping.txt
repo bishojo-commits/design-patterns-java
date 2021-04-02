@@ -22,15 +22,21 @@ com/bishojo/designpatterns/strategy/MiniDuckSimulator.java
  com.bishojo.designpatterns.strategy.MiniDuckSimulator
 com/bishojo/designpatterns/strategy/behaviour/quack/QuackBehaviour.java
  com.bishojo.designpatterns.strategy.behaviour.quack.QuackBehaviour
-com/bishojo/designpatterns/observer/data/WeatherData.java
- com.bishojo.designpatterns.observer.data.WeatherData
 com/bishojo/designpatterns/observer/display/DisplayElement.java
  com.bishojo.designpatterns.observer.display.DisplayElement
+com/bishojo/designpatterns/observer/display/CurrentConditionsDisplay.java
+ com.bishojo.designpatterns.observer.display.CurrentConditionsDisplay
 com/bishojo/designpatterns/observer/data/Subject.java
  com.bishojo.designpatterns.observer.data.Subject
 com/bishojo/designpatterns/observer/Observer.java
  com.bishojo.designpatterns.observer.Observer
-com/bishojo/designpatterns/observer/display/CurrentConditionsDisplay.java
- com.bishojo.designpatterns.observer.display.CurrentConditionsDisplay
+com/bishojo/designpatterns/observer/data/WeatherData.java
+ com.bishojo.designpatterns.observer.data.WeatherData
 com/bishojo/designpatterns/observer/WeatherStation.java
  com.bishojo.designpatterns.observer.WeatherStation
+com/bishojo/designpatterns/observer_buildin/display/CurrentTemperatureDisplay.java
+ com.bishojo.designpatterns.observer_buildin.display.CurrentTemperatureDisplay
+com/bishojo/designpatterns/observer_buildin/WeatherStation.java
+ com.bishojo.designpatterns.observer_buildin.WeatherStation
+com/bishojo/designpatterns/observer_buildin/data/TemperatureData.java
+ com.bishojo.designpatterns.observer_buildin.data.TemperatureData
