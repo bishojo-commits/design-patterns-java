@@ -1,42 +1,44 @@
-com/bishojo/designpatterns/strategy/duck/Duck.java
- com.bishojo.designpatterns.strategy.duck.Duck
+com/bishojo/designpatterns/observer/display/CurrentConditionsDisplay.java
+ com.bishojo.designpatterns.observer.display.CurrentConditionsDisplay
 com/bishojo/designpatterns/strategy/behaviour/quack/Squeak.java
  com.bishojo.designpatterns.strategy.behaviour.quack.Squeak
 com/bishojo/designpatterns/strategy/behaviour/fly/FlyWithWings.java
  com.bishojo.designpatterns.strategy.behaviour.fly.FlyWithWings
-com/bishojo/designpatterns/strategy/behaviour/quack/Quack.java
- com.bishojo.designpatterns.strategy.behaviour.quack.Quack
-com/bishojo/designpatterns/strategy/duck/MallardDuck.java
- com.bishojo.designpatterns.strategy.duck.MallardDuck
+com/bishojo/designpatterns/observer_buildin/display/CurrentTemperatureDisplay.java
+ com.bishojo.designpatterns.observer_buildin.display.CurrentTemperatureDisplay
+com/bishojo/designpatterns/observer/data/WeatherData.java
+ com.bishojo.designpatterns.observer.data.WeatherData
+com/bishojo/designpatterns/observer_buildin/WeatherStation.java
+ com.bishojo.designpatterns.observer_buildin.WeatherStation
 com/bishojo/designpatterns/strategy/duck/RubberDuck.java
  com.bishojo.designpatterns.strategy.duck.RubberDuck
+com/bishojo/designpatterns/observer_buildin/data/TemperatureData.java
+ com.bishojo.designpatterns.observer_buildin.data.TemperatureData
 com/bishojo/designpatterns/strategy/behaviour/fly/FlyRocketPower.java
  com.bishojo.designpatterns.strategy.behaviour.fly.FlyRocketPower
 com/bishojo/designpatterns/strategy/behaviour/quack/MuteQuack.java
  com.bishojo.designpatterns.strategy.behaviour.quack.MuteQuack
+com/bishojo/designpatterns/strategy/behaviour/quack/QuackBehaviour.java
+ com.bishojo.designpatterns.strategy.behaviour.quack.QuackBehaviour
+com/bishojo/designpatterns/strategy/duck/Duck.java
+ com.bishojo.designpatterns.strategy.duck.Duck
+com/bishojo/designpatterns/observer/data/Subject.java
+ com.bishojo.designpatterns.observer.data.Subject
+com/bishojo/designpatterns/observer/Observer.java
+ com.bishojo.designpatterns.observer.Observer
+com/bishojo/designpatterns/strategy/behaviour/quack/Quack.java
+ com.bishojo.designpatterns.strategy.behaviour.quack.Quack
+com/bishojo/designpatterns/strategy/duck/MallardDuck.java
+ com.bishojo.designpatterns.strategy.duck.MallardDuck
+com/bishojo/designpatterns/observer/display/DisplayElement.java
+ com.bishojo.designpatterns.observer.display.DisplayElement
 com/bishojo/designpatterns/strategy/behaviour/fly/FlyBehaviour.java
  com.bishojo.designpatterns.strategy.behaviour.fly.FlyBehaviour
 com/bishojo/designpatterns/strategy/behaviour/fly/FlyNoWay.java
  com.bishojo.designpatterns.strategy.behaviour.fly.FlyNoWay
 com/bishojo/designpatterns/strategy/MiniDuckSimulator.java
  com.bishojo.designpatterns.strategy.MiniDuckSimulator
-com/bishojo/designpatterns/strategy/behaviour/quack/QuackBehaviour.java
- com.bishojo.designpatterns.strategy.behaviour.quack.QuackBehaviour
-com/bishojo/designpatterns/observer/display/DisplayElement.java
- com.bishojo.designpatterns.observer.display.DisplayElement
-com/bishojo/designpatterns/observer/display/CurrentConditionsDisplay.java
- com.bishojo.designpatterns.observer.display.CurrentConditionsDisplay
-com/bishojo/designpatterns/observer/data/Subject.java
- com.bishojo.designpatterns.observer.data.Subject
-com/bishojo/designpatterns/observer/Observer.java
- com.bishojo.designpatterns.observer.Observer
-com/bishojo/designpatterns/observer/data/WeatherData.java
- com.bishojo.designpatterns.observer.data.WeatherData
 com/bishojo/designpatterns/observer/WeatherStation.java
  com.bishojo.designpatterns.observer.WeatherStation
-com/bishojo/designpatterns/observer_buildin/display/CurrentTemperatureDisplay.java
- com.bishojo.designpatterns.observer_buildin.display.CurrentTemperatureDisplay
-com/bishojo/designpatterns/observer_buildin/WeatherStation.java
- com.bishojo.designpatterns.observer_buildin.WeatherStation
-com/bishojo/designpatterns/observer_buildin/data/TemperatureData.java
- com.bishojo.designpatterns.observer_buildin.data.TemperatureData
+com/bishojo/designpatterns/observer_gui/SwingObserver.java
+ com.bishojo.designpatterns.observer_gui.SwingObserver
