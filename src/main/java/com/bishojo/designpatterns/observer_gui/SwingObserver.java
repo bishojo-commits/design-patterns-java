@@ -11,7 +11,7 @@ public class SwingObserver extends JFrame {
         init();
     }
 
-    public void init() {
+    private void init() {
         panel = new JPanel();
         button = new JButton("Should I do it?");
         button.setName("sidiButton");
