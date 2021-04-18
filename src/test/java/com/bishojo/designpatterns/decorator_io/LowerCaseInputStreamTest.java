@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Assertions;
 import java.io.*;
 
 public class LowerCaseInputStreamTest {
-    
+
     private static final String filePath = "files" + File.separator + "test.txt";
 
     @BeforeAll
