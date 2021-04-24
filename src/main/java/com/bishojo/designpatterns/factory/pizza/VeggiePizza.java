@@ -3,7 +3,7 @@ package com.bishojo.designpatterns.factory.pizza;
 import com.bishojo.designpatterns.factory.ingredient.PizzaIngredientFactory;
 
 public class VeggiePizza extends Pizza {
-    PizzaIngredientFactory ingredientFactory;
+    private PizzaIngredientFactory ingredientFactory;
 
     public VeggiePizza(PizzaIngredientFactory ingredientFactory) {
         this.ingredientFactory = ingredientFactory;

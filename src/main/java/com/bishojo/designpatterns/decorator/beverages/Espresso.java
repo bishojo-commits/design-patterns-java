@@ -1,6 +1,6 @@
 package com.bishojo.designpatterns.decorator.beverages;
 
-public class Espresso extends Beverage{
+public class Espresso extends Beverage {
 
     public Espresso() {
         this.description = "Espresso";

@@ -5,13 +5,13 @@ import com.bishojo.designpatterns.factory.ingredient.*;
 import java.util.Arrays;
 
 public abstract class Pizza {
-    String name;
-    Dough dough;
-    Sauce sauce;
-    Veggie veggies[];
-    Cheese cheese;
-    Pepperoni pepperoni;
-    Clam clam;
+    protected String name;
+    protected Dough dough;
+    protected Sauce sauce;
+    protected Veggie veggies[];
+    protected Cheese cheese;
+    protected Pepperoni pepperoni;
+    protected Clam clam;
 
     public abstract void prepare();
 

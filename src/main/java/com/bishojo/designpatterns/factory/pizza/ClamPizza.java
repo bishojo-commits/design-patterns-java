@@ -4,7 +4,7 @@ import com.bishojo.designpatterns.factory.ingredient.PizzaIngredientFactory;
 
 public class ClamPizza extends Pizza {
 
-    PizzaIngredientFactory ingredientFactory;
+    private PizzaIngredientFactory ingredientFactory;
 
     public ClamPizza(PizzaIngredientFactory ingredientFactory) {
         this.ingredientFactory = ingredientFactory;
