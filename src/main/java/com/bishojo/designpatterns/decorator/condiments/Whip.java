@@ -1,6 +1,5 @@
 package com.bishojo.designpatterns.decorator.condiments;
 
-
 import com.bishojo.designpatterns.decorator.beverages.Beverage;
 
 public class Whip extends CondimentDecorator {
