@@ -18,15 +18,13 @@ public class QuackTest extends AbstractStreamTest {
     }
 
     @Test
-    public void testQuackMethodCalled()
-    {
+    public void testQuackMethodCalled() {
         quack.quack();
         verify(quack).quack();
     }
 
     @Test
-    public void testQuackMethodCalled2Times()
-    {
+    public void testQuackMethodCalled2Times() {
         quack.quack();
         quack.quack();
 

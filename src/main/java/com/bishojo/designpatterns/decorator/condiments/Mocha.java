@@ -12,7 +12,7 @@ public class Mocha extends CondimentDecorator{
 
     @Override
     public double cost() {
-       return this.beverage.cost() + 0.10;
+        return this.beverage.cost() + 0.10;
     }
 
     @Override

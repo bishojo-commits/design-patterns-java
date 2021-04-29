@@ -8,7 +8,8 @@ public abstract class Duck {
     FlyBehaviour flyBehaviour;
     QuackBehaviour quackBehaviour;
 
-    public Duck () {}
+    public Duck() {
+    }
 
     public abstract void display();
 

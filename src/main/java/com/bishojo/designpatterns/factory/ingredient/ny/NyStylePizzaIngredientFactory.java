@@ -20,8 +20,8 @@ public class NyStylePizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override
     public Veggie[] createVeggies() {
-       Veggie veggies[] = {new Onion(), new Mushroom()};
-       return veggies;
+        Veggie veggies[] = {new Onion(), new Mushroom()};
+        return veggies;
     }
 
     @Override

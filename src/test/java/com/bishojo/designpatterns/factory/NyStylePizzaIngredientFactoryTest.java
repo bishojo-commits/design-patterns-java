@@ -11,38 +11,32 @@ public class NyStylePizzaIngredientFactoryTest {
     private final NyStylePizzaIngredientFactory ingredientFactory = spy(NyStylePizzaIngredientFactory.class);
 
     @Test
-    public void testDoughCreated()
-    {
+    public void testDoughCreated() {
         Assertions.assertTrue(ingredientFactory.createDough() instanceof ThinCrustDough);
     }
 
     @Test
-    public void testSauceCreated()
-    {
+    public void testSauceCreated() {
         Assertions.assertTrue(ingredientFactory.createSauce() instanceof NapoliSauce);
     }
 
     @Test
-    public void testCheeseCreated()
-    {
+    public void testCheeseCreated() {
         Assertions.assertTrue(ingredientFactory.createCheese() instanceof MeltyCheese);
     }
 
     @Test
-    public void testClamCreated()
-    {
+    public void testClamCreated() {
         Assertions.assertTrue(ingredientFactory.createClam() instanceof Crab);
     }
 
     @Test
-    public void testPepperoniCreated()
-    {
+    public void testPepperoniCreated() {
         Assertions.assertTrue(ingredientFactory.createPepperoni() instanceof SlicedPepperoni);
     }
 
     @Test
-    public void testVeggiesCreated()
-    {
+    public void testVeggiesCreated() {
         Veggie[] veggies = ingredientFactory.createVeggies();
 
         Assertions.assertTrue(veggies[0] instanceof Onion);

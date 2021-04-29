@@ -18,15 +18,13 @@ public class FlyRocketPowerTest extends AbstractStreamTest {
     }
 
     @Test
-    public void testFlyMethodCalled()
-    {
+    public void testFlyMethodCalled() {
         fly.fly();
         verify(fly).fly();
     }
 
     @Test
-    public void testFlyMethodCalled2Times()
-    {
+    public void testFlyMethodCalled2Times() {
         fly.fly();
         fly.fly();
 

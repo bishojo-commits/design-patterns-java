@@ -33,7 +33,7 @@ public class LowerCaseInputStreamTest {
                             new BufferedInputStream(
                                     new FileInputStream(filePath)));
 
-            character = (char)in.read();
+            character = (char) in.read();
             in.close();
         } catch (IOException e) {
         }

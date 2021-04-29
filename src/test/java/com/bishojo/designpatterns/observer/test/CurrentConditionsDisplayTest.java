@@ -40,7 +40,7 @@ public class CurrentConditionsDisplayTest extends AbstractStreamTest {
 
         Assertions.assertEquals(
                 "Current conditions: " + display.getTemperature() + "F degrees and"
-                + display.getHumidity() + "% humidity",
+                        + display.getHumidity() + "% humidity",
                 outContent.toString().trim()
         );
     }

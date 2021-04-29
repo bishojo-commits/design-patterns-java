@@ -13,7 +13,7 @@ public class LowerCaseInputStream extends FilterInputStream {
     @Override
     public int read() throws IOException {
         int c = in.read();
-        return (c == -1 ? c : Character.toLowerCase((char)c));
+        return (c == -1 ? c : Character.toLowerCase((char) c));
     }
 
     @Override
@@ -21,7 +21,7 @@ public class LowerCaseInputStream extends FilterInputStream {
         int result = in.readNBytes(b, offset, len);
 
         for (int i = offset; i < offset + result; i++) {
-            b[i] = (byte)Character.toLowerCase((char)b[i]);
+            b[i] = (byte) Character.toLowerCase((char) b[i]);
         }
 
         return result;

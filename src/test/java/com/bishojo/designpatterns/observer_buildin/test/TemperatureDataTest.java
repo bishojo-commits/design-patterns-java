@@ -19,7 +19,7 @@ public class TemperatureDataTest {
         temperatureData.addObserver(listener);
 
         Assertions.assertTrue(
-            temperatureData.getPropertyChangeSupport().hasListeners("temperature")
+                temperatureData.getPropertyChangeSupport().hasListeners("temperature")
         );
     }
 

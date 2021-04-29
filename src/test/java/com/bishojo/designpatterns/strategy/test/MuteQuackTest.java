@@ -18,15 +18,13 @@ public class MuteQuackTest extends AbstractStreamTest {
     }
 
     @Test
-    public void testQuackMethodCalled()
-    {
+    public void testQuackMethodCalled() {
         muteQuack.quack();
         verify(muteQuack).quack();
     }
 
     @Test
-    public void testQuackMethodCalledOneTime()
-    {
+    public void testQuackMethodCalledOneTime() {
         muteQuack.quack();
         muteQuack.quack();
 

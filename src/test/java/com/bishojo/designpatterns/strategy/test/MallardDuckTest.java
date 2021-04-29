@@ -30,22 +30,19 @@ public class MallardDuckTest extends AbstractStreamTest {
 
     @Test
     @DisplayName("testQuackBehaviourSet")
-    public void testQuackBehaviourSet()
-    {
+    public void testQuackBehaviourSet() {
         Assertions.assertTrue(mallardDuck.getQuackBehaviour() instanceof QuackBehaviour);
     }
 
     @Test
     @DisplayName("testFlyBehaviourSet")
-    public void testFlyBehaviourSet()
-    {
+    public void testFlyBehaviourSet() {
         Assertions.assertTrue(mallardDuck.getFlyBehaviour() instanceof FlyBehaviour);
     }
 
     @Test
     @DisplayName("testQuackBehaviourCanBeDynamiclySet")
-    public void testQuackBehaviourCanBeDynamiclySet()
-    {
+    public void testQuackBehaviourCanBeDynamiclySet() {
         mallardDuck.setQuackBehaviour(new MuteQuack());
 
         mallardDuck.performQuack();
@@ -54,8 +51,7 @@ public class MallardDuckTest extends AbstractStreamTest {
 
     @Test
     @DisplayName("testFlyBehaviourCanBeDynamiclySet")
-    public void testFlyBehaviourCanBeDynamiclySet()
-    {
+    public void testFlyBehaviourCanBeDynamiclySet() {
         mallardDuck.setFlyBehaviour(new FlyRocketPower());
 
         mallardDuck.performFly();

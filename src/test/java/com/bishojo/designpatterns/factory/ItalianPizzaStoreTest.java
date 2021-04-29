@@ -12,8 +12,7 @@ public class ItalianPizzaStoreTest {
 
     @Test
     @DisplayName("cheesePizzaCreated")
-    public void testCheesePizzaCreated()
-    {
+    public void testCheesePizzaCreated() {
         Pizza pizza = store.createPizza("cheese");
 
         Assertions.assertEquals(pizza.getName(), "ItalianCheesePizza");
@@ -22,8 +21,7 @@ public class ItalianPizzaStoreTest {
 
     @Test
     @DisplayName("pepperoniPizzaCreated")
-    public void testPepperoniPizzaCreated()
-    {
+    public void testPepperoniPizzaCreated() {
         Pizza pizza = store.createPizza("pepperoni");
 
         Assertions.assertEquals(pizza.getName(), "ItalianPepperoniPizza");
@@ -32,8 +30,7 @@ public class ItalianPizzaStoreTest {
 
     @Test
     @DisplayName("clamPizzaCreated")
-    public void testClamPizzaCreated()
-    {
+    public void testClamPizzaCreated() {
         Pizza pizza = store.createPizza("clam");
 
         Assertions.assertEquals(pizza.getName(), "ItalianClamPizza");
@@ -42,8 +39,7 @@ public class ItalianPizzaStoreTest {
 
     @Test
     @DisplayName("veggiePizzaCreated")
-    public void testVeggiePizzaCreated()
-    {
+    public void testVeggiePizzaCreated() {
         Pizza pizza = store.createPizza("veggie");
 
         Assertions.assertEquals(pizza.getName(), "ItalianVeggiePizza");
@@ -52,10 +48,9 @@ public class ItalianPizzaStoreTest {
 
     @Test
     @DisplayName("pizzaNotFoundExceptionThrown")
-    public void testPizzaNotFoundExceptionThrown()
-    {
+    public void testPizzaNotFoundExceptionThrown() {
         RuntimeException exception = Assertions.assertThrows(PizzaNotFoundException.class,
-                () ->  store.createPizza("no pizza"));
+                () -> store.createPizza("no pizza"));
 
         Assertions.assertEquals(exception.getMessage(), "Pizza type not found 🍕");
     }

@@ -69,7 +69,7 @@ public class WeatherDataTest {
     @Test
     @DisplayName("testMeasurementDataSet")
     public void testMeasurementDataSet() {
-        weatherData.setMeasurementData(80,40, 1000);
+        weatherData.setMeasurementData(80, 40, 1000);
 
         Assertions.assertEquals(80, weatherData.getTemperature());
         Assertions.assertEquals(40, weatherData.getHumidity());

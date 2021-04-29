@@ -18,15 +18,13 @@ public class SqueakTest extends AbstractStreamTest {
     }
 
     @Test
-    public void testQuackMethodCalled()
-    {
+    public void testQuackMethodCalled() {
         squeak.quack();
         verify(squeak).quack();
     }
 
     @Test
-    public void testQuackMethodCalledOneTime()
-    {
+    public void testQuackMethodCalledOneTime() {
         squeak.quack();
         squeak.quack();
 
