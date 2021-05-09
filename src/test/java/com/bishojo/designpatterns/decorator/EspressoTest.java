@@ -6,11 +6,12 @@ import org.junit.jupiter.api.Test;
 
 public class EspressoTest {
 
+    private final static String DESCRIPTION = "Espresso";
     private final Espresso espresso = new Espresso();
 
     @Test
     public void testDescriptionIsSetOnInitilization() {
-        Assertions.assertEquals(espresso.getDescription(), "Espresso");
+        Assertions.assertEquals(espresso.getDescription(), DESCRIPTION);
     }
 
     @Test

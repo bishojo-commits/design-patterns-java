@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class MochaTest {
+
     private final Espresso espresso = new Espresso();
     private final Mocha mocha = new Mocha(espresso);
 
