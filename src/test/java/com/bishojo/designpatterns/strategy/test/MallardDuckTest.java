@@ -5,7 +5,7 @@ import com.bishojo.designpatterns.strategy.behaviour.fly.FlyRocketPower;
 import com.bishojo.designpatterns.strategy.behaviour.quack.MuteQuack;
 import com.bishojo.designpatterns.strategy.behaviour.quack.QuackBehaviour;
 import com.bishojo.designpatterns.strategy.duck.MallardDuck;
-import com.bishojo.designpatterns.test.helpers.AbstractStreamTest;
+import com.bishojo.helpers.AbstractStreamTest;
 import org.junit.jupiter.api.*;
 
 import static org.mockito.Mockito.*;
