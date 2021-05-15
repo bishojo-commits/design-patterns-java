@@ -5,7 +5,8 @@ Simple variations of Design Patterns including JUnit-Jupiter unit tests in Java
 - Factory 🛠
 - Observer 🔮
 - Strategy 🧪
-- Decorator 💝 
+- Decorator 💝
+- Adapter 🔌
 - Singleton 🗝
 - Builder ⛏
 - Prototype 📁
