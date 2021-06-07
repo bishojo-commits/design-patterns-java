@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.LinkedList;
 
 public class MotorCycleTest {
+
     private final Vehicle vehicle = new Vehicle();
     private final MotorCycle motorCycle = new MotorCycle(vehicle);
 

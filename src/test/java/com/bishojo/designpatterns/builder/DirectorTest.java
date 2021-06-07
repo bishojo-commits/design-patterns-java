@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.mockito.Mockito.*;
 
 public class DirectorTest {
+
     private final BuilderInterface builder = mock(BuilderInterface.class);
     private final Director director = new Director();
 
