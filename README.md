@@ -11,6 +11,7 @@ Simple variations of Design Patterns including JUnit-Jupiter unit tests in Java
 - Builder ⛏
 - Prototype 📁
 - Bridge 🛣
+- Composite 🧩
 
 ## Licence
 MIT
